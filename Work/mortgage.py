@@ -31,7 +31,7 @@ while principal > 0:
         print(current_month, total_paid, principal)
         break
 
-    print(current_month, total_paid, principal)
+    print(f'{current_month} {total_paid} {principal}')
 
 
-print('Total paid', total_paid, 'Months required: ', current_month)
+print(f'Total paid {total_paid}. Months required: {current_month}')
